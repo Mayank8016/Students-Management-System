@@ -6,7 +6,7 @@ const { authorize } = require("../middlewares/role");
 const router = express.Router();
 
 
-    router.get("/courses", userauth, getCourses);
-    router.post("/courses", userauth, authorize("admin"), createCourse);
+    router.get("/", userauth, getCourses);
+    router.post("/", userauth, authorize("admin"), createCourse);
 
 module.exports = router;
