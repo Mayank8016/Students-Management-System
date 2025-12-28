@@ -67,6 +67,12 @@ Your server should now run at http://localhost:3000.
 
 🛠️ API Endpoints
 Methods might vary depending on your actual route files, but here’s a typical set:
+### 🔐 Authentication Required
+All `/api/students` routes are protected.
+Include JWT token in Authorization header.
+
+Authorization: Bearer <token>
+
 
 Method	Endpoint	Description
 authentication api:-
@@ -121,5 +127,6 @@ This project is open-source and free to use.
 
 🙌 Contact
 Created by Mayank — feel free to reach out for feedback or collaborations!
+
 
 
