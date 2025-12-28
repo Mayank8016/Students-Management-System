@@ -12,7 +12,7 @@ This project provides endpoints to **create**, **read**, **update**, and **delet
 - **Express.js** (Web framework)
 - **MongoDB** (Database)
 - **Mongoose** (MongoDB ODM)
-- **ESLint / Prettier** *(optional — if configured)*
+
 
 ---
 
@@ -127,3 +127,4 @@ This project is open-source and free to use.
 
 🙌 Contact
 Created by Mayank — feel free to reach out for feedback or collaborations!
+
