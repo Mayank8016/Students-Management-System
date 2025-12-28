@@ -16,7 +16,7 @@ app.use("/api/students", require("./routes/studentRouter"));
 app.use("/api/courses", require("./routes/courseRouter"));
 app.use("/api/enrollments", require("./routes/enrollmentRouter"));
 app.use("/",(req,res)=>{
-  res.send("Not a valid api")
+  res.send("Api is running check it with valid api. This is just dashboard page")
 })
 
 connectDB()
