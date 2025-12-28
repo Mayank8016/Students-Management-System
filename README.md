@@ -40,8 +40,6 @@ This project provides endpoints to **create**, **read**, **update**, and **delet
 ├── .gitignore
 └── README.md
 
-yaml
-Copy code
 
 ---
 
@@ -49,27 +47,23 @@ Copy code
 
 1. **Clone the repository**
 
-```bash
+`
 git clone https://github.com/Mayank8016/Students-Management-System.git
 cd Students-Management-System
 Install dependencies
 
-bash
-Copy code
 npm install
 Create a .env file
 Create a .env in the root with something like:
 
 ini
-Copy code
-PORT=5000
+PORT=3000
 MONGODB_URI=your_mongodb_connection_string
+JWT_SECRET=your secret key
 Run the server
 
-bash
-Copy code
 npm start
-Your server should now run at http://localhost:5000.
+Your server should now run at http://localhost:3000.
 
 🛠️ API Endpoints
 Methods might vary depending on your actual route files, but here’s a typical set:
@@ -127,4 +121,5 @@ This project is open-source and free to use.
 
 🙌 Contact
 Created by Mayank — feel free to reach out for feedback or collaborations!
+
 
